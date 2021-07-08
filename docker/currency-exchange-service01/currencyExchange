@@ -1,0 +1,36 @@
+
+------links for reference-------
+
+
+currency exchange 
+http://localhost:8016/currency-exchange/from/USD/to/INR
+
+currency conversion
+http://localhost:8100/currency-conversion/from/USD/to/INR/quantity/10
+
+eureka
+http://localhost:8761/
+
+API GATEWAY
+http://localhost:8765/currency-exchange/currency-exchange/from/USD/to/INR
+http://localhost:8765/currency-conversion/currency-conversion/from/USD/to/INR/quantity/10
+http://localhost:8765/currency-conversion/currency-conversion-feign/from/USD/to/INR/quantity/10
+
+///new urls ----------------------
+http://localhost:8765/currency-exchange/from/USD/to/INR
+http://localhost:8765/currency-conversion/from/USD/to/INR/quantity/10
+http://localhost:8765/currency-conversion-feign/from/USD/to/INR/quantity/10
+
+http://localhost:8765/currency-conversion-new/from/USD/to/INR/quantity/10
+
+
+///circuit breaker response
+2021-05-07 18:25:05.497  INFO 2028 --- [nio-8016-exec-4] c.a.m.c.CircuitBreakerController         : sample Api cal recieved
+2021-05-07 18:25:06.534  INFO 2028 --- [nio-8016-exec-4] c.a.m.c.CircuitBreakerController         : sample Api cal recieved
+2021-05-07 18:25:08.062  INFO 2028 --- [nio-8016-exec-4] c.a.m.c.CircuitBreakerController         : sample Api cal recieved
+2021-05-07 18:25:10.343  INFO 2028 --- [nio-8016-exec-4] c.a.m.c.CircuitBreakerController         : sample Api cal recieved
+
+- io.vavr:vavr-match:jar:0.10.2:compile
+ +- org.slf4j:slf4j-api:jar:1.7.30:compile
+ 
+ ackerman4levi/currency-exchange-service01:0.0.1-SNAPSHOT
