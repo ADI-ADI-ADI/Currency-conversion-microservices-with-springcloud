@@ -12,7 +12,7 @@ Also, to be able to do:
 ● Implementation of circuit-breaker using resiliance4j\
 ● Distributed Tracing using Zipkin\
 ● Asynchronous communication using RABBITMQ\
-● Deploy and Run services using DOCKER\
+● Deploy and Run services using DOCKER
 
 
 #REQUIREMENTS: 
@@ -28,6 +28,6 @@ Also, to be able to do:
 ● Kubernetes\
 ● Postman API Testing\
 ● Access to Command Line/Terminal/Bash\
-● Docker CLI\
+● Docker CLI
 
 
