@@ -3,7 +3,7 @@
 #OBJECTIVE: \
 \
 The main objective of this project is to develop a single currency-conversion application as a suite of small services each running in its own process and communicating with lightweight mechanisms, often an HTTP resource API.\
-These services are built around business capabilities and independently deployable by fully automated deployment machinery.\
+These services are built around business capabilities and independently deployable by fully automated deployment machinery.
 
 Also, to be able to do:
 ● Service registry using EUREKA naming server\
