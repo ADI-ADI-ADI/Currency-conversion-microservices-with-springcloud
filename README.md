@@ -6,6 +6,7 @@ The main objective of this project is to develop a single currency-conversion ap
 These services are built around business capabilities and independently deployable by fully automated deployment machinery.
 
 Also, to be able to do:
+\
 ● Service registry using EUREKA naming server\
 ● Load Balancing with FEIGN & spring cloud load balancer\
 ● Creation of API-Gateway using Spring cloud Gateway & Netflix\
